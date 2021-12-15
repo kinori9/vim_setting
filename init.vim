@@ -8,6 +8,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'vim-airline/vim-airline'
 	Plug 'junegunn/fzf'
 	Plug 'junegunn/fzf.vim'
+	Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/rpc' }
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'nathanaelkane/vim-indent-guides'
 	Plug 'alvan/vim-closetag'
@@ -19,8 +20,12 @@ call plug#begin('~/.vim/plugged')
 	Plug 'vim-scripts/vcscommand.vim'
 	Plug 'tpope/vim-surround'
 	Plug 'mbbill/undotree'
+	Plug 'mfussenegger/nvim-dap'
+	Plug 'rcarriga/nvim-dap-ui'
+	Plug 'ryanoasis/vim-devicons'
+	Plug 'tribela/vim-transparent'
+	Plug 'easymotion/vim-easymotion'
 call plug#end()
 colo gruvbox
 "Plugin Setting 
 runtime setting.vim
-
