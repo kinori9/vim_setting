@@ -1,3 +1,7 @@
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
+set encoding=UTF-8
+
 "coc-vim Setting
 runtime coc_nvim.vim
 "42header Setting
@@ -12,5 +16,7 @@ runtime snippets.vim
 runtime nvim_dap.vim
 "vim-easymotion Setting
 runtime vim_easymotion.vim
-
-set encoding=UTF-8
+"vim-closetag Setting
+runtime vim_closetag.vim
+"treesitter Setting
+runtime treesitter.vim

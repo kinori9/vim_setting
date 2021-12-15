@@ -3,6 +3,7 @@ set rnu
 set ts=4
 set bg=dark
 set shiftwidth=4
+set clipboard=unnamedplus
 call plug#begin('~/.vim/plugged')
 	Plug 'preservim/nerdtree'
 	Plug 'vim-airline/vim-airline'
@@ -25,6 +26,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'ryanoasis/vim-devicons'
 	Plug 'tribela/vim-transparent'
 	Plug 'easymotion/vim-easymotion'
+	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 call plug#end()
 colo gruvbox
 "Plugin Setting 
