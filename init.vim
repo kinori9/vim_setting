@@ -27,6 +27,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'tribela/vim-transparent'
 	Plug 'easymotion/vim-easymotion'
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
+	Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 call plug#end()
 colo gruvbox
 "Plugin Setting 
