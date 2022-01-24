@@ -15,7 +15,6 @@ call plug#begin('~/.vim/plugged')
 	Plug 'alvan/vim-closetag'
 	Plug 'morhetz/gruvbox'
 	Plug 'jiangmiao/auto-pairs'
-	Plug 'wfxr/minimap.vim', {'do': ':!cargo install --locked code-minimap'}
 	Plug 'pbondoer/vim-42header'
 	Plug 'tpope/vim-fugitive'
 	Plug 'vim-scripts/vcscommand.vim'
