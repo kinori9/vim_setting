@@ -13,7 +13,8 @@ require 'nvim-treesitter.configs'.setup {
 		"javascript",
 		"html",
 		"css",
-		"json"
+		"json",
+		"java"
 	}
 }
 EOF

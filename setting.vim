@@ -1,4 +1,5 @@
 autocmd FileType javascript setlocal ts=2 sts=2 sw=2
+autocmd FileType typescript setlocal ts=2 sts=2 sw=2
 autocmd FileType html setlocal ts=2 sts=2 sw=2
 autocmd FileType css setlocal ts=2 sts=2 sw=2
 let g:airline#extensions#tabline#enabled = 1
@@ -23,3 +24,5 @@ runtime vim_easymotion.vim
 runtime vim_closetag.vim
 "treesitter Setting
 runtime treesitter.vim
+"vim-javacomplete
+runtime  vim_javacomplete.vim
