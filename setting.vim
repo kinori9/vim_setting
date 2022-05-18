@@ -1,5 +1,5 @@
 autocmd FileType javascript setlocal ts=2 sts=2 sw=2
-autocmd FileType typescript setlocal ts=2 sts=2 sw=2
+autocmd FileType typescript setlocal ts=4 sts=4 sw=4
 autocmd FileType html setlocal ts=2 sts=2 sw=2
 autocmd FileType css setlocal ts=2 sts=2 sw=2
 let g:airline#extensions#tabline#enabled = 1
@@ -8,8 +8,6 @@ set encoding=UTF-8
 
 "coc-vim Setting
 runtime coc_nvim.vim
-"42header Setting
-runtime private_header.vim
 "Minimap Setting
 runtime minimap.vim
 "Undotree Setting

@@ -12,10 +12,8 @@ call plug#begin('~/.vim/plugged')
 	Plug 'yuki-yano/fzf-preview.vim', { 'branch': 'release/rpc' }
 	Plug 'neoclide/coc.nvim', {'branch': 'release'}
 	Plug 'nathanaelkane/vim-indent-guides'
-	Plug 'alvan/vim-closetag'
-	Plug 'morhetz/gruvbox'
 	Plug 'jiangmiao/auto-pairs'
-	Plug 'pbondoer/vim-42header'
+	Plug 'morhetz/gruvbox'
 	Plug 'tpope/vim-fugitive'
 	Plug 'vim-scripts/vcscommand.vim'
 	Plug 'tpope/vim-surround'
@@ -28,7 +26,16 @@ call plug#begin('~/.vim/plugged')
 	Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 	Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 	Plug 'mustache/vim-mustache-handlebars'
+	Plug 'sonph/onehalf', {'rtp': 'vim/'}
+	Plug 'diepm/vim-rest-console'
+	Plug 'maxmellon/vim-jsx-pretty'
+"	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"	Plug 'beeender/Comrade'
+	Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 call plug#end()
-colo gruvbox
+colo onehalfdark
+let g:airline_theme='onehalfdark'
 "Plugin Setting 
 runtime setting.vim
+let g:jsx_ext_required = 0
+let g:deoplete#enable_at_startup = 1
